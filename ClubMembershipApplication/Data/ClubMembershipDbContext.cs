@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ClubMembershipApplication.Data;
 
-public class CubMembershipDbContext: DbContext
+public class ClubMembershipDbContext: DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

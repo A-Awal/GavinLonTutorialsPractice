@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ClubMembershipApplication.Migrations
 {
-    [DbContext(typeof(CubMembershipDbContext))]
+    [DbContext(typeof(ClubMembershipDbContext))]
     partial class CubMembershipDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -31,11 +31,15 @@ namespace ClubMembershipApplication.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("AddressSecondtLine")
+                    b.Property<string>("AddressSecondLine")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("EmailAddress")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")

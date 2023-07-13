@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClubMembershipApplication.Migrations
 {
     [DbContext(typeof(ClubMembershipDbContext))]
-    [Migration("20230713095051_FirstCreate")]
-    partial class FirstCreate
+    [Migration("20230713112609_AddedEmailAddress")]
+    partial class AddedEmailAddress
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,11 +34,15 @@ namespace ClubMembershipApplication.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("AddressSecondtLine")
+                    b.Property<string>("AddressSecondLine")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("DateOfBirth")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("EmailAddress")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstName")
