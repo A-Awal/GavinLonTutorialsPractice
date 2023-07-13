@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GavinLonTutorialPractice", "GavinLonTutorialPractice\GavinLonTutorialPractice.csproj", "{2DEC4D21-649D-4F2B-8101-50737DDDBA16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDeligateExample", "BasicDeligateExample\BasicDeligateExample.csproj", "{1F6A83B2-DE2A-46A2-A852-597B2A4994FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DEC4D21-649D-4F2B-8101-50737DDDBA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DEC4D21-649D-4F2B-8101-50737DDDBA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DEC4D21-649D-4F2B-8101-50737DDDBA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DEC4D21-649D-4F2B-8101-50737DDDBA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6A83B2-DE2A-46A2-A852-597B2A4994FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6A83B2-DE2A-46A2-A852-597B2A4994FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6A83B2-DE2A-46A2-A852-597B2A4994FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6A83B2-DE2A-46A2-A852-597B2A4994FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
