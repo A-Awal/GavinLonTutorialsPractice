@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDeligateExample", "Bas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubMembershipApplication", "ClubMembershipApplication\ClubMembershipApplication.csproj", "{35E93950-CE21-4CF2-ADAB-7229FF559821}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldValidatorAPI", "FieldValidatorAPI\FieldValidatorAPI.csproj", "{84D1DCB7-BE13-4613-9D6B-C86159E47E1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNSAsyncCallbackSampleCode", "DNSAsyncCallbackSampleCode\DNSAsyncCallbackSampleCode.csproj", "{6DB59CB3-371A-4DA1-A83B-D5F66F53B3BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{35E93950-CE21-4CF2-ADAB-7229FF559821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35E93950-CE21-4CF2-ADAB-7229FF559821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35E93950-CE21-4CF2-ADAB-7229FF559821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D1DCB7-BE13-4613-9D6B-C86159E47E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D1DCB7-BE13-4613-9D6B-C86159E47E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D1DCB7-BE13-4613-9D6B-C86159E47E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D1DCB7-BE13-4613-9D6B-C86159E47E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB59CB3-371A-4DA1-A83B-D5F66F53B3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB59CB3-371A-4DA1-A83B-D5F66F53B3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB59CB3-371A-4DA1-A83B-D5F66F53B3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB59CB3-371A-4DA1-A83B-D5F66F53B3BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
