@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GavinLonTutorialPractice", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicDeligateExample", "BasicDeligateExample\BasicDeligateExample.csproj", "{1F6A83B2-DE2A-46A2-A852-597B2A4994FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionTrees", "ExpressionTrees\ExpressionTrees.csproj", "{7B60FA33-27E8-45C6-AF16-16DF3A769E96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1F6A83B2-DE2A-46A2-A852-597B2A4994FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F6A83B2-DE2A-46A2-A852-597B2A4994FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F6A83B2-DE2A-46A2-A852-597B2A4994FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B60FA33-27E8-45C6-AF16-16DF3A769E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B60FA33-27E8-45C6-AF16-16DF3A769E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B60FA33-27E8-45C6-AF16-16DF3A769E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B60FA33-27E8-45C6-AF16-16DF3A769E96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
